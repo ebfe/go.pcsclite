@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	scard "./scard"
+	"github.com/ebfe/go.pcsclite/scard"
 )
 
 func die(err error) {
