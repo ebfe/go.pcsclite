@@ -1,11 +1,5 @@
 pcsclite binding for Go.
 
-missing:
-
-	TODO: SCardFreeMemory
-	TODO: SCardGetAttrib
-	TODO: SCardSetAttrib
-
 install:
 
 	go get github.com/ebfe/go.pcsclite/scard
