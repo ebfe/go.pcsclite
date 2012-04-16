@@ -2,8 +2,6 @@ pcsclite binding for Go.
 
 missing:
 
-	TODO: SCardControl
-	TODO: SCardListReaderGroups
 	TODO: SCardFreeMemory
 	TODO: SCardGetAttrib
 	TODO: SCardSetAttrib
