@@ -1,53 +1,51 @@
 // Created by cgo -godefs - DO NOT EDIT
-// cgo -godefs -- -I/usr/include/PCSC/ const.go
+// cgo -godefs -- -I/usr/include/PCSC const.go
 
 package scard
 
-type Attrib uint32
-
 const (
-	ATTR_VENDOR_NAME              Attrib = 0x10100
-	ATTR_VENDOR_IFD_TYPE          Attrib = 0x10101
-	ATTR_VENDOR_IFD_VERSION       Attrib = 0x10102
-	ATTR_VENDOR_IFD_SERIAL_NO     Attrib = 0x10103
-	ATTR_CHANNEL_ID               Attrib = 0x20110
-	ATTR_ASYNC_PROTOCOL_TYPES     Attrib = 0x30120
-	ATTR_DEFAULT_CLK              Attrib = 0x30121
-	ATTR_MAX_CLK                  Attrib = 0x30122
-	ATTR_DEFAULT_DATA_RATE        Attrib = 0x30123
-	ATTR_MAX_DATA_RATE            Attrib = 0x30124
-	ATTR_MAX_IFSD                 Attrib = 0x30125
-	ATTR_SYNC_PROTOCOL_TYPES      Attrib = 0x30126
-	ATTR_POWER_MGMT_SUPPORT       Attrib = 0x40131
-	ATTR_USER_TO_CARD_AUTH_DEVICE Attrib = 0x50140
-	ATTR_USER_AUTH_INPUT_DEVICE   Attrib = 0x50142
-	ATTR_CHARACTERISTICS          Attrib = 0x60150
-	ATTR_CURRENT_PROTOCOL_TYPE    Attrib = 0x80201
-	ATTR_CURRENT_CLK              Attrib = 0x80202
-	ATTR_CURRENT_F                Attrib = 0x80203
-	ATTR_CURRENT_D                Attrib = 0x80204
-	ATTR_CURRENT_N                Attrib = 0x80205
-	ATTR_CURRENT_W                Attrib = 0x80206
-	ATTR_CURRENT_IFSC             Attrib = 0x80207
-	ATTR_CURRENT_IFSD             Attrib = 0x80208
-	ATTR_CURRENT_BWT              Attrib = 0x80209
-	ATTR_CURRENT_CWT              Attrib = 0x8020a
-	ATTR_CURRENT_EBC_ENCODING     Attrib = 0x8020b
-	ATTR_EXTENDED_BWT             Attrib = 0x8020c
-	ATTR_ICC_PRESENCE             Attrib = 0x90300
-	ATTR_ICC_INTERFACE_STATUS     Attrib = 0x90301
-	ATTR_CURRENT_IO_STATE         Attrib = 0x90302
-	ATTR_ATR_STRING               Attrib = 0x90303
-	ATTR_ICC_TYPE_PER_ATR         Attrib = 0x90304
-	ATTR_ESC_RESET                Attrib = 0x7a000
-	ATTR_ESC_CANCEL               Attrib = 0x7a003
-	ATTR_ESC_AUTHREQUEST          Attrib = 0x7a005
-	ATTR_MAXINPUT                 Attrib = 0x7a007
-	ATTR_DEVICE_UNIT              Attrib = 0x7fff0001
-	ATTR_DEVICE_IN_USE            Attrib = 0x7fff0002
-	ATTR_DEVICE_FRIENDLY_NAME     Attrib = 0x7fff0003
-	ATTR_DEVICE_SYSTEM_NAME       Attrib = 0x7fff0004
-	ATTR_SUPRESS_T1_IFS_REQUEST   Attrib = 0x7fff0007
+	ATTR_VENDOR_NAME              uint32 = 0x10100
+	ATTR_VENDOR_IFD_TYPE          uint32 = 0x10101
+	ATTR_VENDOR_IFD_VERSION       uint32 = 0x10102
+	ATTR_VENDOR_IFD_SERIAL_NO     uint32 = 0x10103
+	ATTR_CHANNEL_ID               uint32 = 0x20110
+	ATTR_ASYNC_PROTOCOL_TYPES     uint32 = 0x30120
+	ATTR_DEFAULT_CLK              uint32 = 0x30121
+	ATTR_MAX_CLK                  uint32 = 0x30122
+	ATTR_DEFAULT_DATA_RATE        uint32 = 0x30123
+	ATTR_MAX_DATA_RATE            uint32 = 0x30124
+	ATTR_MAX_IFSD                 uint32 = 0x30125
+	ATTR_SYNC_PROTOCOL_TYPES      uint32 = 0x30126
+	ATTR_POWER_MGMT_SUPPORT       uint32 = 0x40131
+	ATTR_USER_TO_CARD_AUTH_DEVICE uint32 = 0x50140
+	ATTR_USER_AUTH_INPUT_DEVICE   uint32 = 0x50142
+	ATTR_CHARACTERISTICS          uint32 = 0x60150
+	ATTR_CURRENT_PROTOCOL_TYPE    uint32 = 0x80201
+	ATTR_CURRENT_CLK              uint32 = 0x80202
+	ATTR_CURRENT_F                uint32 = 0x80203
+	ATTR_CURRENT_D                uint32 = 0x80204
+	ATTR_CURRENT_N                uint32 = 0x80205
+	ATTR_CURRENT_W                uint32 = 0x80206
+	ATTR_CURRENT_IFSC             uint32 = 0x80207
+	ATTR_CURRENT_IFSD             uint32 = 0x80208
+	ATTR_CURRENT_BWT              uint32 = 0x80209
+	ATTR_CURRENT_CWT              uint32 = 0x8020a
+	ATTR_CURRENT_EBC_ENCODING     uint32 = 0x8020b
+	ATTR_EXTENDED_BWT             uint32 = 0x8020c
+	ATTR_ICC_PRESENCE             uint32 = 0x90300
+	ATTR_ICC_INTERFACE_STATUS     uint32 = 0x90301
+	ATTR_CURRENT_IO_STATE         uint32 = 0x90302
+	ATTR_ATR_STRING               uint32 = 0x90303
+	ATTR_ICC_TYPE_PER_ATR         uint32 = 0x90304
+	ATTR_ESC_RESET                uint32 = 0x7a000
+	ATTR_ESC_CANCEL               uint32 = 0x7a003
+	ATTR_ESC_AUTHREQUEST          uint32 = 0x7a005
+	ATTR_MAXINPUT                 uint32 = 0x7a007
+	ATTR_DEVICE_UNIT              uint32 = 0x7fff0001
+	ATTR_DEVICE_IN_USE            uint32 = 0x7fff0002
+	ATTR_DEVICE_FRIENDLY_NAME     uint32 = 0x7fff0003
+	ATTR_DEVICE_SYSTEM_NAME       uint32 = 0x7fff0004
+	ATTR_SUPRESS_T1_IFS_REQUEST   uint32 = 0x7fff0007
 )
 
 const (
